@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "DN Front-end challenge - April 2021",
     "main": "dist/challenge.umd.js",
     "module": "dist/challenge.esm.js",
@@ -49,7 +49,7 @@
         "webpack": "^4.0.0"
     },
     "peerDependencies": {
-        "vue": "^2.6.12",
-        "@digitalnatives/css-variables": "^3.0.0"
+        "@digitalnatives/css-variables": "^3.0.0",
+        "vue": "^2.6.12"
     }
 }
