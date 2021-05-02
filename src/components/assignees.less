@@ -1,0 +1,22 @@
+.assignees {
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+    li + li {
+        position: relative;
+        margin-left: -18em;
+    }
+
+    img {
+        width: 60em;
+        height: 60em;
+        object-fit: cover;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+        border-radius: 100%;
+    }
+
+    li:hover {
+        z-index: 2;
+    }
+}
